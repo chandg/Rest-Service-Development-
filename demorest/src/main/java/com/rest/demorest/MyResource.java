@@ -105,6 +105,9 @@ public class MyResource {
 				if (path[k]==null)
 				break;
 			}
+			
+			s.close();
+			s2.close();
 
     }
  

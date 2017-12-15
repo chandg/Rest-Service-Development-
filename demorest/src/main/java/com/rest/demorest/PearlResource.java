@@ -15,7 +15,7 @@ import org.eclipse.jgit.api.errors.GitAPIException;
 @Path("pearl")
 public class PearlResource {
 	
-	 private static final String REMOTE_URL = "https://github.com/chandg/chat_room-server.git";
+	 private static final String REMOTE_URL = "https://github.com/SERG-Delft/jpacman-framework.git";
 	@GET 
 	@Produces(MediaType.APPLICATION_XML)
 	public  Pearl getPearl() throws Throwable, GitAPIException, GitAPIException
